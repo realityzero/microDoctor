@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "846078703954",
+    "firebase_url": "https://microdoctor-bbc63.firebaseio.com",
+    "project_id": "microdoctor-bbc63",
+    "storage_bucket": "microdoctor-bbc63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846078703954:android:f644c7462ffbb8cc",
+        "android_client_info": {
+          "package_name": "com.example.nishantsikri.microdoctor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "846078703954-b1teb5i67pld2epgd5h2bt09bd8r779g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nishantsikri.microdoctor",
+            "certificate_hash": "156b6ed098db82636c3fb73b1fdef1de0729858f"
+          }
+        },
+        {
+          "client_id": "846078703954-28drmnvafitselh5ohv2kgr2jn0laa2n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBL7a-HL7pl1yvj35GR2fx6CDSrGVPOJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "846078703954-28drmnvafitselh5ohv2kgr2jn0laa2n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

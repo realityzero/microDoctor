@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00BCD4</color>
+    <color name="colorPrimaryDark">#00ACC1</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="indigo">#4b0082</color>
+    <color name="pink">#ff69b4</color>
+    <color name="White">#ffffff</color>
+    <color name="gray">#d3d3d3</color>
+    <color name="black">#000000</color>
+
+    <color name="darkRed">#8b0000</color>
+    <color name="red500">#F44336</color>
+    <color name="yellow">#ffff00</color>
+
+    <color name="material_blue_500">#2196F3</color>
+    <color name="material_blue_700">#1976D2</color>
+
+    <color name="material_deep_purple_500">#673AB7</color>
+    <color name="material_deep_purple_a200">#7C4DFF</color>
+
+    <color name="material_green600">#24A566</color>
+
+    <color name="material_lime_a200">#EEFF41</color>
+    
+    <color name="gratlight">#fafafa</color>
+    <color name="starblue">#09c6df</color>
+    <color name="endblue">#0bcce6</color>
+
+
+    //Colors for Trending Topics Content Header
+    <color name="translucent_scrim_top">#26000000</color>
+    <color name="translucent_scrim_top_center">#0C000000</color>
+    <color name="translucent_scrim_bottom">#2A000000</color>
+    <color name="translucent_scrim_bottom_center">#0D000000</color>
+
+</resources>

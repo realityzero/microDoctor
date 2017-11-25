@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <shortcut
+        android:shortcutId="id1"
+        android:enabled="true"
+        android:shortcutLongLabel="@string/shortcut1_long_label"
+        android:shortcutShortLabel="@string/shortcut1_short_label"
+        android:icon="@drawable/ic_trending">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetClass="com.example.nishantsikri.microdoctor.NavigationActivity"
+        android:targetPackage="com.example.nishantsikri.microdoctor" />
+
+
+    <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="id2"
+        android:enabled="true"
+        android:shortcutLongLabel="@string/shortcut2_long_label"
+        android:shortcutShortLabel="@string/shortcut2_short_label"
+        android:icon="@drawable/ic_symptom">
+    <intent
+        android:action="android.intent.action.VIEW"
+        android:targetClass="com.example.nishantsikri.microdoctor.SymptomActivity"
+        android:targetPackage="com.example.nishantsikri.microdoctor" />
+
+    <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+
+    <shortcut
+        android:shortcutId="id3"
+        android:enabled="true"
+        android:shortcutLongLabel="@string/shortcut3_long_label"
+        android:shortcutShortLabel="@string/shortcut3_short_label"
+        android:icon="@drawable/ic_chemist">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.example.nishantsikri.microdoctor.MapsActivity"
+            android:targetPackage="com.example.nishantsikri.microdoctor" />
+
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    </shortcuts>

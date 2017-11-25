@@ -1,0 +1,348 @@
+<resources>
+    <string name="app_name">microDoctor</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sleep_disorder">SleepDisorderActivity</string>
+    <string name="sleep_title1">Good Sleep Habits</string>
+    <string name="sleep_title2">Sleep Disorders</string>
+    <string name="sleep_title3">What Affects Sleep</string>
+    <string name="sleep_title4">Tests and Treatments</string>
+    <string name="title1_option2">"<big>Getting a good night sleep is key to performing at your best during the day. Find out how to get the amount of rest you need.</big>\n\n"
+        "<b><big>Are You Getting Enough Sleep?</big></b>\n"
+        "The amount of sleep a person needs depends on many factors, including age.\n\n"
+        "<b><big>Stages of Sleep</big></b>\n"
+        "Sleep stages are divided into non-rapid eye movement (non-REM) and rapid eye movement (REM).\n\n"
+        "<b><big>Facts About Dreaming</big></b>\n"
+        "Dreams can be entertaining, disturbing, or downright bizarre. We all dream even if we don't remember it the next day. But why do we dream? And what do dreams mean, anyway?\n\n"
+        "<b><big>Do You Get Good Sleep?</big></b>\n"
+        "This interactive assessment will help you assess your sleep habits and sleep quality, and provide tips for improving your night's rest.\n\n"
+        "<b><big>Keeping a Sleep Diary</big></b>\n"
+        "Learn about your sleep patterns and habits by keeping a daily sleep diary. It may be key to helping you and your health care provider diagnose and treat a sleep disorder.\n\n"
+        "<b><big>Sleep Tracker</big></b>\n"
+        "An easy way to track your sleep habits and spot patterns."
+    </string>
+    <string name="title2_option2">
+        "<big>Whether you have occasional trouble sleeping or you're living with a sleep disorder, you can get quality sleep and learn to better manage your condition.</big>\n\n"
+        "<b><big>Central Sleep Apnea</big></b>\n"
+        "In central sleep apnea, breathing is disrupted regularly during sleep because of the way the brain functions.\n\n"
+        "<b><big>An Overview of Insomnia</big></b>\n"
+        "Insomnia is a sleep disorder that is characterized by difficulty falling and/or staying asleep.\n\n"
+        "<b><big>Hypersomnia (Daytime Sleepiness)</big></b>\n"
+        "Hypersomnia, or excessive sleepiness, is a condition in which a person has trouble staying awake during the day. People who have hypersomnia can fall asleep at any time for instance, at work or while they are driving.\n\n"
+        "<b><big>What Are Parasomnias?</big></b>\n"
+        "Parasomnias are disruptive sleep disorders that can occur during arousals from REM sleep or partial arousals from non-REM sleep. Parasomnias include nightmares, night terrors, sleepwalking, confusional arousals, and many others.\n\n"
+        "<b><big>REM Sleep Behavior Disorder</big></b>\n"
+        "In a person with REM sleep behavior disorder (RBD), the paralysis that normally occurs during REM sleep is incomplete or absent, allowing the person to "act out" his or her dreams.\n\n"
+        "<b><big>Shift Work Sleep Disorder</big></b>\n"
+        "Shift work sleep disorder is trouble sleeping because you work nights or rotating shifts. You also may have this problem if you have trouble staying awake or alert when you are supposed to work your shift.\n\n"
+        "<b><big>What Is Narcolepsy?</big></b>\n"
+        "Narcolepsy is a neurological disorder that affects the control of sleep and wakefulness"
+    </string>
+    <string name="title3_option2">
+        "<big>Learn about health conditions that can negatively impact your sleep.</big>\n\n"
+        "<b><big>Chronic Illness</big></b>\n"
+        "Sleep problems can be due to a chronic illness, such as diabetes, arthritis, HIV/AIDS, lupus, Parkinson's disease, Alzheimer's disease, and multiple sclerosis.\n\n"
+        "<b><big>Psychiatric Complications</big></b>\n"
+        "There is no evidence that sleep disorders are a cause of psychiatric disorders.  But sleep and psychiatric disorders such as schizophrenia and depression are closely related.\n\n"
+        "<b><big>Reducing Stress for Better Sleep</big></b>\n"
+        "If high levels of unwanted stress are not properly managed, your health and sense of well-being can suffer. Therefore, it is important to learn how to manage stress.\n\n"
+        "<b><big>Sleeping Better As You Get Older</big></b>\n"
+        "Regardless of your age, good restorative sleep is essential to physical health and emotional well-being."
+    </string>
+    <string name="title4_option2">
+        "<big>Learn about tests used to diagnose sleep disorders and treatments that can help, from home remedies to prescription medications.</big>\n\n"
+        "<b><big>What to Expect From a Sleep Study</big></b>\n"
+        "A sleep study or polysomnogram (PSG) is a test that electronically transmits and records specific physical activities while you sleep.\n\n"
+        "<b><big>How Clinical Trials Work</big></b>\n"
+        "A clinical trial, also called a research study, is a research program that tests the effectiveness and safety of various interventions in people with sleep disorders.\n\n"
+        "<b><big>Side Effects of Sleeping Pills</big></b>\n"
+        "A sleeping pill may be effective at ending your sleep problems short-term. But it's important to make sure you understand everything you need to know about sleeping pills."
+    </string>
+    <string name="anxiety_title1">Anxiety and Panic</string>
+    <string name="anxiety_title2">Treatment and Care</string>
+    <string name="anxiety_title3">Living and Managing</string>
+    <string name="anxiety_title1_description">
+        "<big><b>Panic attacks</b></big> are intense periods of fear or feelings of doom developing over a very short time frame up to 10 minutes and associated with at least four of the following:\n\n"
+        "&#149;Sudden overwhelming fear\n"
+        "&#149;Sweating\n"
+        "&#149;Trembling\n"
+        "&#149;Shortness of breath\n"
+        "&#149;Nausea\n"
+        "&#149;Chills or hot flushes\n"
+        "&#149;Numbness or tingling in the limbs or entire body\n"
+        "&#149;Dizziness\n\n"
+        "<b>Panic attacks</b> and <b>panic disorder</b> are not the same thing. Panic disorder involves recurrent panic attacks along with constant fears about having future attacks and, often, avoiding situations that may trigger or remind someone of previous attacks. Not all panic attacks are caused by panic disorder; other conditions may trigger a panic attack.\n\n"
+        "<b>Phobic disorders</b> are intense, persistent, and recurrent fear of certain objects (such as snakes, spiders, <b>blood</b>) or situations (such as heights, speaking in front of a group, public places). These exposures may trigger a panic attack. <b>Social phobia</b> and agoraphobia are examples of phobic disorders.\n\n"
+        "<b>Post-traumatic stress disorder</b> or <b>PTSD</b> was considered to be a type of <b>anxiety disorder</b> in earlier versions of the American Psychiatric Association's Diagnostic and Statistical Manual of Mental Disorders. But in 2013, PTSD was reclassified as its own condition. It describes a range of emotional reactions caused by exposure to either death or near-death circumstances (such as fires, floods, earthquakes, shootings, assault, automobile accidents, or wars) or to events that threaten one's own or another person's physical well-being. The traumatic event is re-experienced with fear of feelings of helplessness or horror and may appear in thoughts and <b>dreams</b>.\n\n"
+        "Symptoms such as chest pain, shortness of breath, palpitations, dizziness, <b>fainting</b>, and <b>weakness</b> should not be automatically attributed to anxiety and require evaluation by a doctor."
+    </string>
+    <string name="anxiety_title2_description">
+        "Getting help for anxiety as early as possible gives you the best chance for recovery.\n\n"
+        "<b>Understanding Treatment for Generalized Anxiety Disorder</b>\n"
+        "Medication is useful for alleviating the symptoms of generalized anxiety disorder and is often prescribed in conjunction with other therapies.\n\n"
+        "<b>Medications for Anxiety and Depression</b>\n"
+        "Antidepressants, particularly SSRIs, have been shown to be effective in treating anxiety disorders.\n\n"
+        "<b>Treating Panic Attacks</b>"
+        "The cause of most panic attacks is not clear, so treatment may be different for each person.\n\n"
+        "<b>Hypnosis for Anxiety and Panic Disorders</b>"
+        "Hypnosis is usually considered an aid to psychotherapy because the hypnotic state allows people to explore painful thoughts, feelings, and memories they might have hidden from their conscious minds."
+    </string>
+    <string name="anxiety_title3_description">
+        "Through managing your condition, you gain more control over an anxiety disorder. By developing good coping skills, you have a better chance of preventing future anxiety attacks.\n\n"
+        "<b>Anxiety Prevention Tips</b>\n"
+        "Though not a treatment for anxiety disorders, these tips can help reduce symptoms of anxiety.\n\n"
+        "<b>Joining a Support Group</b>\n"
+        "Support groups consist of people who share a disorder, like depression or anxiety, and meet to discuss their experiences, share ideas, and provide emotional support for one another.\n\n"
+    </string>
+    <string name="ptsd_title1">Memories</string>
+    <string name="ptsd_title2">Avoidance</string>
+    <string name="ptsd_title3">Behavior Changes</string>
+    <string name="ptsd_title4">Mood Swings</string>
+    <string name="ptsd_title1_description">
+        "Whether you're thinking about it or not, memories of the traumatic event can come back to bother you. You may experience them in your <b>sleep</b> as <b>nightmares</b> or during the day as flashbacks. That means you relive the event as if it's happening for the first time.\n\n"
+        "Both can cause you to feel anxious, afraid, guilty, or suspicious. These emotions may play out physically in the form of chills, shaking, <b>headaches</b>, <b>heart palpitations</b>, and <b>panic attacks</b>."
+    </string>
+    <string name="ptsd_title2_description">
+        "You don't want to think about it. You don't want to talk about it. You steer clear of everyone and everything that reminds you of the event, including places and activities.\n\n"
+        "Avoidance can also mean staying away from people in general not just the ones connected with the event. This can cause you to feel detached and alone."
+    </string>
+    <string name="ptsd_title3_description">
+        "Doctors call these 'arousal symptoms.' They can make your emotions more intense or make you react differently than you normally would. For example, if you're a careful driver, you might start driving too fast or be super-aggressive on the road. Irrational, angry outbursts are very common.\n\n"
+        "Many find it hard to focus. Feelings of danger and being under attack can ruin concentration and keep you from finishing tasks you do every day. This can also lead to <b>trouble sleeping</b>, whether you're having nightmares or not."
+    </string>
+    <string name="ptsd_title4_description">
+        "PTSD doesn't always come with clues like nightmares and flashbacks. Sometimes it seems like a mood change unrelated to the traumatic event.\n\n"
+        "You'll know it by its negativity. You may feel hopeless, numb, or bad about yourself or others. Thoughts of <b>suicide</b> can come and go. Deep feelings of guilt and shame are common, as well.\n\n"
+        "Activities you normally enjoy may not interest you anymore. Your motivation to maintain <b>relationships</b> with close friends and family could be low."
+    </string>
+    <string name="heart_title1">Overview and Facts</string>
+    <string name="heart_title2">Symptoms and Types</string>
+    <string name="heart_title3">Diagnosis and Tests</string>
+    <string name="heart_title4">Treatment and Care for Heart Disease</string>
+    <string name="heart_title1_description">
+        "<b>How the Heart Works</b>\n"
+        "The <b>heart</b> is an amazing organ. It pumps oxygen and nutrient-rich <b>blood</b> throughout the body to sustain life. This fist-sized powerhouse beats (expands and contracts) 100,000 times per day, pumping five or six quarts of <b>blood</b> each minute, or about 2,000 gallons per day.\n\n"
+        "<b>Men and Heart Disease</b>\n"
+        "When you think of heart disease in men, usually people think of coronary artery disease (narrowing of the arteries leading to the heart) and heart attack. But coronary artery disease is just one of many types of heart disease.\n\n"
+        "<b>Women and Heart Disease</b>\n"
+        "Heart disease is the leading cause of death in women over 40 years old, especially after menopause. And the risk of heart disease in women continues to increase with age.\n\n"
+        "<b>What Causes Heart Disease?</b>\n"
+        "Most heart attacks are the end result of coronary heart disease, a condition that clogs coronary arteries with fatty, calcified plaques."
+    </string>
+    <string name="heart_title2_description">
+        "There are many types of heart disease. Here's where to get quick facts on each one including warning signs and symptoms.\n\n"
+        "<b>Enlarged Heart (Cardiomegaly)</b>\n"
+        "An enlarged heart (cardiomegaly) can have various causes. But it's usually caused by high blood pressure (hypertension) or coronary artery disease.\n\n"
+        "<b>Pericardial Effusion</b>\n"
+        "Fluid around the heart can be caused by various types of infection/inflammation or cancer, kidney disease or heart surgery. This fluid can impair heart function.\n\n"
+        "<b>Marfan Syndrome</b>\n"
+        "This inherited genetic defect weakens connective tissues, including those in the heart.\n\n"
+        "<b>Heart Murmurs</b>\n"
+        "Most heart murmurs are innocent: They are caused by blood flowing through healthy valves in a healthy heart and do not require treatment. However, heart murmurs can be caused by blood flowing through a damaged or overworked heart valve."
+    </string>
+    <string name="heart_title3_description">
+        "Exactly when do you go from having risk factors to having heart disease?\n\n"
+        "<b>Stress Test</b>\n"
+        "Does your heart respond well to exertion? That's what a stress test looks for.\n\n"
+        "<b>Tilt Table Test</b>"
+        "The head-up tilt table test is used to help find the cause of fainting spells.\n\n"
+        "<b>Cardiac Catheterization</b>\n"
+        "Cardiac catheterization also called a coronary angiogram means running a catheter into your heart. It's done to help doctors see what's going on in there, and whether they need to operate.\n\n"
+        "<b>CT Heart Scan</b>\n"
+        "Computed tomography (CT scan) of the heart can visualize your heart’s anatomy. Calcium-score heart scan and coronary CT angiography are just a few types used to diagnose heart disease.\n\n"
+        "<b>Heart MRI</b>\n"
+        "A heart MRI is a great way for doctors to get a look from the outside at how your heart is working.\n\n"
+        "<b>Pericardiocentesis</b>\n"
+        "Pericardiocentesis also called a pericardial tap means using a needle to get a sample of the fluid in the sac surrounding the heart."
+    </string>
+    <string name="heart_title4_description">
+        "Things that you and your health care professional can do for heart disease can be all over the map, from CPR, to high-tech surgeries, to caregiving. Chances are that you, or someone you love, may need different types.\n\n"
+        "<b>CPR</b>\n"
+        "Cardiopulmonary resuscitation CPR is one link in what the American Heart Association calls the chain of survival. Learn CPR for a loved one. You can use the Internet to find classes near you.\n\n"
+        "<b>Angioplasty and Stents</b>\n"
+        "Angioplasty is a procedure that uses very little cutting to open blocked heart arteries. Stents can be put in during angioplasty.\n\n"
+        "<b>Heart Bypass Surgery</b>\n"
+        "This can treat heart disease when your coronary arteries are blocked. Your doctor may treat the problem by giving the blood a new pathway to the heart.\n\n"
+        "<b>Valve Disease Treatment</b>\n"
+        "When your heart valve disease needs attention, it can be treated by traditional surgery or by balloon valvuloplasty, which doesn't require as much cutting.\n\n"
+        "<b>Cardioversion</b>\n"
+        "For many people with heart disease, drugs alone won’t turn an arrhythmia into a normal heart rhythm. These people may need a procedure called cardioversion or electrical cardioversion."
+    </string>
+
+    <string name="leukemia_title1">What Is Leukemia?</string>
+    <string name="leukemia_title2">How Does It Happen?</string>
+    <string name="leukemia_title3">Causes</string>
+    <string name="leukemia_title1_description">
+        "Leukemia is usually thought of as a children’s condition, but it actually affects more adults. It’s more common in men than women, and more in whites than African-Americans.\n\n"
+        "There’s really nothing you can do to prevent <b>leukemia</b>. It’s <b>cancer</b> of your <b>blood cells</b> caused by a rise in the number of <b>white blood cells</b> in your body. They crowd out the red blood cells and platelets your body needs to be healthy. All those extra white blood cells don’t work right, and that causes problems."
+    </string>
+    <string name="leukemia_title2_description">
+        "Blood has three types of cells: white blood cells that fight infection, red blood cells that carry oxygen, and platelets that help blood to clot.\n\n"
+        "Every day, billions of new blood cells are made in the bone marrow most of them red cells. But when you have leukemia, your body makes more white cells than it needs.\n\n"
+        "There are two main types of white blood cells in your body: lymphoid cells and myeloid cells. Leukemia can happen in either type.\n\n"
+        "These leukemia cells can’t fight infection the way normal white blood cells do. And because there are so many of them, they start to affect the way your major organs work. Eventually, there aren’t enough red blood cells to supply oxygen, enough platelets to clot the blood, or enough normal white blood cells to fight infection.\n\n"
+        "Along with infection, this can cause problems like <b>anemia</b>, bruising, and bleeding."
+    </string>
+    <string name="leukemia_title3_description">
+        "No one knows exactly what causes leukemia. People who have it have certain abnormal chromosomes, but the chromosomes don’t cause the leukemia.\n\n"
+        "You can’t really prevent leukemia, but it may be possible that certain things in your environment could trigger the development of it. For example, if you are a <b>tobacco smoker</b>, you are more prone to some types of leukemia than a nonsmoker. It’s also associated with a <b>high amount of radiation</b> exposure and certain chemicals.\n\n"
+        "Some kinds of <b>chemotherapy</b> and <b>radiation therapy</b> used to treat other cancers can actually cause leukemia. The chance that you’ll develop leukemia depends on the types of chemotherapy drugs used.\n\n"
+        "Family history is another risk factor for leukemia. For example, if an identical twin gets a certain type of leukemia, there is a 20% chance the other twin will have it within a year."
+    </string>
+    <string name="food_title1">What is food poisoning?</string>
+    <string name="food_title2">Cause</string>
+    <string name="food_title3">Symptoms</string>
+    <string name="food_title4">Exams and Tests</string>
+    <string name="food_title1_description">
+        "<b>Food poisoning</b> is an illness caused by eating foods that have harmful organisms in them. These harmful germs can include bacteria, <b>parasites</b>, and viruses. They are mostly found in raw meat, chicken, fish, and eggs, but they can spread to any type of food. They can also grow on food that is left out on counters or outdoors or is stored too long before you eat it. Sometimes <b>food poisoning</b> happens when people don't wash their hands before they touch food.\n\n"
+        "Most of the time, food poisoning is mild and goes away after a few days. All you can do is wait for your body to get rid of the germ that is causing the illness. But some types of food poisoning may be more serious, and you may need to see a doctor."
+    </string>
+    <string name="food_title2_description">
+        "<b>During food processing.</b>> It is normal to find bacteria in the <b>intestines</b> of healthy animals that we use for food. If bacteria come in contact with meat or poultry during processing, they can contaminate the food.\n\n"
+        "<b>During food growing.</b> Fresh <b>fruits and vegetables</b> can be contaminated if they are washed or irrigated with water that is contaminated with animal manure or human sewage.\n\n"
+        "<b>During food handling.</b> Food can be contaminated when an infected person handles the food or if it comes in contact with another contaminated product. For example, if you use the same cutting board for both chopping vegetables and preparing raw meat, you risk contaminating the vegetables.\n\n"
+        "<b>Through the environment.</b>> Many harmful organisms that are commonly found in dirt, dust, and water can find their way into the foods we eat."
+    </string>
+    <string name="food_title3_description">
+        "The <b>symptoms of food poisoning</b> usually affect your <b>stomach</b> and <b>intestines</b>(gastrointestinal tract).\n\n"
+        "1. The first symptom is usually diarrhea.\n\n"
+        "2. Other symptoms include feeling sick to your <b>stomach (nausea)</b>, <b>vomiting</b>, and abdominal (belly) <b>cramps</b>."
+    </string>
+    <string name="food_title4_description">
+        "Most <b>food poisoning</b> is mild and passes in a few days, so most people don't go to a doctor for a diagnosis. You can often diagnose <b>food poisoning</b> yourself if others who ate the same food as you also become ill.\n\n"
+        "If you do go to your doctor, he or she will make the diagnosis based on your symptoms, a <b>physical exam</b>, and your medical history. Your doctor will ask where you have been eating and whether anyone who ate the same food has the same symptoms.\n\n"
+    </string>
+    <string name="ibs_title1">What Is Irritable Bowel Syndrome?</string>
+    <string name="ibs_title2">Types</string>
+    <string name="ibs_title3">Symptoms</string>
+    <string name="ibs_title1_description">
+        "Doctors don't have a clear picture what IBS is or what causes it. But researchers do have a few theories:\n\n"
+        "1. IBS sufferers may have a more sensitive <b>colon</b> than others.\n"
+        "2. In people with IBS, the <b>brain</b> may perceive <b>contractions</b> in the gut more acutely than others.\n"
+        "3. The immune system may respond differently to stress and infection in people with IBS.\n"
+        "4. Hormonal changes may trigger <b>IBS symptoms</b>> (70% of those who suffer from IBS are women).\n"
+    </string>
+    <string name="ibs_title2_description">
+        "There are three types of <b>irritable bowel syndrome</b>, or IBS. They include:\n\n"
+        "<b>IBS with constipation.</b> This comes with <b>stomach pain</b> and discomfort, <b>bloating</b>, abnormally delayed or infrequent <b>bowel movement</b>, or lumpy/hard stool.\n\n"
+        "<b>IBS with diarrhea.</b> This comes with stomach pain and discomfort, an urgent need to move your bowels, abnormally frequent <b>bowel movements</b>, or loose/watery stool.\n\n"
+        "IBS with <b>alternating constipation and diarrhea</b>."
+    </string>
+    <string name="ibs_title3_description">
+        "We all have stomachaches and trouble going to the bathroom once in a while, but for people with <b>IBS</b>, the <b>chronic pain</b> and discomfort can be disabling.\n\n"
+        "Along with abdominal cramping and discomfort, <b>IBS symptoms</b> may include:\n\n"
+        "1. Bloating\n"
+        "2. Gas\n"
+        "3. <b>Constipation</b> the stool comes out either lumpy or hard\n"
+        "4. <b>Diarrhea</b> the stool comes out loose or watery\n"
+        "5. Clear or white mucus with the stool\n"
+    </string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_symptom">SymptomActivity</string>
+    <string name="title_activity_disease">DiseaseActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="shortcut1_short_label">Trending</string>
+    <string name="shortcut1_long_label">Trending Topics</string>
+    <string name="shortcut2_short_label">Symptom</string>
+    <string name="shortcut2_long_label">Symptom Checker</string>
+    <string name="shortcut3_short_label">Chemists</string>
+    <string name="shortcut3_long_label">Chemists Nearby</string>
+    <string name="title_activity_anxiety">AnxietyActivity</string>
+    <string name="title_activity_ptsd">PTSDActivity</string>
+    <string name="title_activity_heart">HeartActivity</string>
+    <string name="title_activity_leukemia">LeukemiaActivity</string>
+    <string name="title_activity_food_poisoning">FoodPoisoningActivity</string>
+    <string name="title_activity_ibs">IBSActivity</string>
+</resources>
