@@ -13,3 +13,5 @@ Basic concept that evolved this app is **Symptom Analysis**. Take an instance wh
 7. **Firebase Realtime Database**
 8. **Dynamic Data** i.e. certain elements can be added or removed from the database and the interface will reflect changes instantaneously.
 9. App Shortcuts by tapping on app icon for 1 second. This feature was introduced with the release of Android 8.0(Oreo)
+
+JSON File for **Firebase Database** is uploaded to: https://drive.google.com/open?id=1_VgOuUhCiESzfkhoDJTRL8zl9_p6gUKQ
